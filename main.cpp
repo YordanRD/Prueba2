@@ -252,7 +252,7 @@ void Update()
 					
 				}
 				combo++;
-				score = score + combo * 10;
+				score = score + combo * 30;
 			}
 			else if (BallBottom(bricks[i]->picture))
 			{
